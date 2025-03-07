@@ -17,19 +17,19 @@
 import PackageDescription
 
 let package = Package(
-  name: "GoogleProgrammaticAccessLibrary",
+  name: "GoogleProgrammaticAccessLibraryTvOS",
   platforms: [.tvOS(.v11)],
   products: [
     .library(
-      name: "GoogleProgrammaticAccessLibrary",
-      targets: ["GoogleProgrammaticAccessLibrary"]
+      name: "GoogleProgrammaticAccessLibraryTvOS",
+      targets: ["GoogleProgrammaticAccessLibraryTvOS"]
     )
   ],
   targets: [
     .binaryTarget(
-      name: "GoogleProgrammaticAccessLibrary",
-      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v2.8.1.zip",
-      checksum: "166cdd3b942de9942d32904f4fdb451f7c48eea930a57f01ec6928fa9fa9b725"
+      name: "GoogleProgrammaticAccessLibraryTvOS",
+      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v2.9.1.zip",
+      checksum: "86800cae7275252280224180a25ec83bdedcdfbdd7b8c29ba11ad9d110d643b9"
     )
   ]
 )
