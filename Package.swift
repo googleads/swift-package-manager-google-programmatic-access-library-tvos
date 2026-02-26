@@ -28,8 +28,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleProgrammaticAccessLibraryTvOS",
-      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v3.0.0.zip",
-      checksum: "a60c53a8d3f609ee0b86d564f7d11a3cb0283b3f3361a759beb19ef199aab4d0"
+      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v3.1.4.zip",
+      checksum: "96ee7870c4ef012e53d36b4d9fcf831e37f2d81d1a33a04a0fb798087e4a349a"
     )
   ]
 )
