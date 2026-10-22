@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 // Copyright 2023 Google LLC
 //
@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleProgrammaticAccessLibraryTvOS",
-  platforms: [.tvOS(.v11)],
+  platforms: [.tvOS(.v15)],
   products: [
     .library(
       name: "GoogleProgrammaticAccessLibraryTvOS",
@@ -28,8 +28,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleProgrammaticAccessLibraryTvOS",
-      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v3.1.4.zip",
-      checksum: "96ee7870c4ef012e53d36b4d9fcf831e37f2d81d1a33a04a0fb798087e4a349a"
+      url: "https://imasdk.googleapis.com/downloads/pal/tvos/pal-tvos-v3.2.2.zip",
+      checksum: "d8a2b6e074312551ad8e6ad69e234e9bea0178bbf2d193a05003817f3ab98a80"
     )
   ]
 )
